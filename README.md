@@ -10,5 +10,10 @@ The following tasks were performed:
 - Standardized values in SoldAsVacant and LandUse fields
 - Created LandUse_Grp fields to assign categories to LandUse values 
 
- - LandUse Standardization
- ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddress.png)
+
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/OwnerAddress.png)
+
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
+
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
