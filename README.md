@@ -21,9 +21,9 @@ The following tasks were performed:
     - 19% of the rwos in Single Family LandUse did not have data for the above variables
 - Checked Outlier.  Confirmed value is valid.
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddress.png)
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/OwnerAddress.png)
+
 
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SoldAsVacant%20Standardization.png)
 
