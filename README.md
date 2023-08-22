@@ -21,12 +21,17 @@ The following tasks were performed:
     - 19% of the rwos in Single Family LandUse did not have data for the above variables
 - Checked Outlier.  Confirmed value is valid.
 
+<b> Dataset before Cleaning</b>
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png)
+
+<b> Property Address Split </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
 
-
-
+<b> SoldAsVacant Standardizaton </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SoldAsVacant%20Standardization.png)
 
+<b> LandUse Standardization </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
 
+<b> LandUse_Grp </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
