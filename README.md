@@ -24,6 +24,12 @@ The following tasks were performed:
 <b> Dataset before Cleaning</b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png)
 
+<b> Missing Character Variables </b>
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Missing%20Character%20Variables.png)
+
+<b> Missing Numeric Variables </b>
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Numeric%20Variable%20Analysis.png)
+
 <b> Property Address Split </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
 
@@ -35,3 +41,10 @@ The following tasks were performed:
 
 <b> LandUse_Grp </b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
+
+<b>SalePrice_Grp </b>
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SalePrice_Grp.png)
+
+<b> Dataset after Cleaning </b>
+![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20After%20Cleaning.png)
+
