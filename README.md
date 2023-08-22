@@ -21,6 +21,8 @@ The following tasks were performed:
     - 19% of the rwos in Single Family LandUse did not have data for the above variables
 - Checked Outlier.  Confirmed value is valid.
 
+![SAS Code](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_541_DataCleaningII.sas)
+
 <b> Dataset before Cleaning</b>
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png)
 
