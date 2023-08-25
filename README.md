@@ -1,6 +1,6 @@
 # Data-Cleaning-Project
 
-This is a data cleaning project using an extract of Tennesse Housing data. The Excel file contains 541 records. The data file is cleaned using SAS Studio.
+This is a data cleaning project using an extract of Tennessee Housing data.  The original Excel file contains approximately 59,000 records.  Created an extract of the file due to challenges loading in SAS Studio.  The Google Sheets file contains 541 records. The data file is cleaned using SAS Studio.
 
 The following tasks were performed:
 - Imported Excel file into SAS
