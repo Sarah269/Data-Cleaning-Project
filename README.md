@@ -15,7 +15,7 @@ The following tasks were performed:
 - Created SalePrice_Grp field to assign categories to SalePrice values
 - Created SaleYear variable
 - Missing Values - Numeric Variables
-  - Decision: Drop BuildingValue, LandValue, TotalValue, Acreage, YearBuilt, Bedrooms, FullBath, HalfBath
+  - Decision: Drop BuildingValue, LandValue, TotalValue, Acreage, YearBuilt, Bedrooms, FullBath, HalfBath, OwnerName
     - 100% of the rows in the Condo LandUse did not have data for the above variables
     - 44% of the rows in Residential Land LandUse did not have data for the above variables
     - 19% of the rwos in Single Family LandUse did not have data for the above variables
@@ -33,6 +33,8 @@ The following tasks were performed:
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Numeric%20Variable%20Analysis.png)
 
 <b> Property Address Split </b>
+<p>Split Property Address into Address and City fields.  Populated missing Owner Address with Property Address since non-missing values were the same as Property Address.</p>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
 
 <b> SoldAsVacant Standardizaton </b>
@@ -42,11 +44,17 @@ The following tasks were performed:
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
 
 <b> LandUse_Grp </b>
+<p>Created categorization field for the LandUse field.</p>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
 
 <b>SalePrice_Grp </b>
+<p>Created categorization field for the SalePrice field.</p>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SalePrice_Grp.png)
 
 <b> Dataset after Cleaning </b>
+<p>Dropped 9 fields due to missing values.  Added 5 fields.</p>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20After%20Cleaning.png)
 
