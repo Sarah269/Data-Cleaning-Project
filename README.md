@@ -20,16 +20,21 @@ The following tasks were performed:
     - 44% of the rows in Residential Land LandUse did not have data for the above variables
     - 19% of the rwos in Single Family LandUse did not have data for the above variables
 - Checked Outlier.  Confirmed value is valid.
+- Generated basic statistics
+- Visualized data
 
 ![SAS Code](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_541_DataCleaningII.sas)
 
 <b> Dataset before Cleaning</b>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png)
 
 <b> Missing Character Variables </b>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Missing%20Character%20Variables.png)
 
-<b> Missing Numeric Variables </b>
+<b> Numeric Variables - Basic Statistics </b>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Numeric%20Variable%20Analysis.png)
 
 <b> Property Address Split </b>
@@ -38,12 +43,15 @@ The following tasks were performed:
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
 
 <b> SoldAsVacant Standardizaton </b>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SoldAsVacant%20Standardization.png)
 
 <b> LandUse Standardization </b>
+
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
 
 <b> LandUse_Grp </b>
+
 <p>Created categorization field for the LandUse field.</p>
 
 ![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
@@ -56,5 +64,7 @@ The following tasks were performed:
 <b> Dataset after Cleaning </b>
 <p>Dropped 9 fields due to missing values.  Added 5 fields.</p>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20After%20Cleaning.png)
+![Post-cleaned dataset stats & graphs PDF](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_StatsGraphs.pdf)
+
+
 
