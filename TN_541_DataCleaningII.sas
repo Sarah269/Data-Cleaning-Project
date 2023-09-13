@@ -267,7 +267,7 @@ tables _char_ / maxlevels =20 MISSING;
   run;
   
   /*  Check missing data by LandUse */
-  proc sort date=tn_wip3; by LandUse; run;
+  proc sort data=tn_wip3; by LandUse; run;
   
   proc freq data=tn_wip3;
   by LandUse;
@@ -301,7 +301,7 @@ tables _char_ / maxlevels =20 MISSING;
    
    /*Create SaleYear*/
    SaleYear = Year(SaleDate);
-   attrib SaleYear format = yyyy4.;
+   *attrib SaleYear format yyyy4.;
    label SaleYear = "Sale Year";
  
    /* Check dataset and missing count */
@@ -329,15 +329,107 @@ run;
 Data mylib.TN_541_CLEANED;
 set tn_wip4;
 
+/* Post-cleaning */
+
+ODS PDF File= "/home/u63413844/DataAnalysis/TN_StatsGraphs.pdf";
+
+/*  Descriptive information on cleaned dataset */
+
+title "Contents of Cleaned Dataset";
 proc contents data=mylib.TN_541_CLEANED varnum;run;
+title;
 
+/* Basic Statistics */
+ODS select Moments BasicMeasures histogram;
+proc univariate data=mylib.TN_541_CLEANED;
+      var SalePrice;
+      histogram / normal;
+   run;
+   
+/*  Data Visualization */
+
+title "Number of Properties Sold by Year";  
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar SaleYear / datalabel;
+  xaxis label = "Year Sold";
+  run;
+title;
+
+
+title "Number of Properties Sold by Land Use Group";  
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar LandUse_grp / datalabel;
+  run;
+title;
   
-
-
+title "Value of Property Sold by Land Use Group" ; 
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar LandUse_grp / response = SalePrice datalabel;
+  yaxis label = "Sale Price";
+  xaxis label = "Land Use Group";
+  run;
+title;
  
+title  " Number Sold by Sale Price Group";
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar SalePrice_grp / datalabel;
+  yaxis label = "Number Sold";
+  run;
+title;
 
+
+title "Property Sold As Vacant ";
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar SoldAsVacant / datalabel;
+  yaxis label = "Number Sold";
+  xaxis label = "Property Sold As Vacant";
+  run;
+title;
+
+
+ title "Value of Property Sold by City" ; 
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar Property_City / response = SalePrice datalabel;
+  yaxis label = "Sale Price";
+  xaxis label = "City";
+  run;
+title;
+
+
+ title "Value of Property Sold by Year Sold" ; 
+format SaleYear yyyy4.;
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar SaleYear / response = SalePrice datalabel;
+  yaxis label = "Sale Price";
+  xaxis label = "Year Sold";
+  run;
+title;
 
    
+title "Number of Properties Sold by Land Use";  
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar LandUse / datalabel;
+  run;
+title;
+   
+title "Properties by Year Sold";  
+proc sgplot data = mylib.TN_541_CLEANED;
+  vbar SaleYear / group = LandUse_Grp groupdisplay = cluster datalabel;
+  keylegend / title="Land Use" ;
+  run;
+title;
+
+
+title "Properties by Year Sold";  
+proc sgplot data = mylib.TN_541_CLEANED;
+where LandUse_Grp = "HOME";
+  vbar SaleYear / group = LandUse groupdisplay = cluster datalabel;
+  keylegend / title="Home" ;
+  run;
+title;
+
+
+ODS PDF Close;
 
 
 
