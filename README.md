@@ -66,5 +66,7 @@ The following tasks were performed:
 
 ![Post-cleaned dataset stats & graphs PDF](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_StatsGraphs.pdf)
 
+<p>  Distribution of property sales</p>
 
+![DistSales](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_DistSalesPrice.png)
 
