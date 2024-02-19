@@ -2,6 +2,8 @@
 
 This is a data cleaning project using an extract of Tennessee Housing data.  The original Excel file contains approximately 59,000 records.  Created an extract of the file due to challenges loading in SAS Studio.  The Google Sheets file contains 541 records. The data file is cleaned using SAS Studio.
 
+Reference:  Alex the Analyst
+
 The following tasks were performed:
 - Imported Excel file into SAS
 - Checked for duplicates
@@ -69,4 +71,8 @@ The following tasks were performed:
 <p>  Distribution of property sales</p>
 
 ![DistSales](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_DistSalesPrice.png)
+
+<p> Properties Sold By Year & Landuse</p>
+
+![PropertiesSold](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_NumSoldByYr.png)
 
