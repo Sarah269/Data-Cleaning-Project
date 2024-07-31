@@ -67,7 +67,7 @@ The following tasks were performed:
 <b> Dataset after Cleaning </b>
 <p>Dropped 9 fields due to missing values.  Added 5 fields.</p>
 
-![Post-cleaned dataset stats & graphs PDF](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_StatsGraphs.pdf)
+[Post-cleaned dataset stats & graphs PDF](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_StatsGraphs.pdf)
 
 <p>  Distribution of property sales</p>
 
