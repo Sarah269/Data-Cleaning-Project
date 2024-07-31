@@ -25,43 +25,44 @@ The following tasks were performed:
 - Generated basic statistics
 - Visualized data
 
-![SAS Code](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_541_DataCleaningII.sas)
+[SAS Data Cleaning](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_541_DataCleaningII.sas)
 
 <b> Dataset before Cleaning</b>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Dataset%20Before%20Cleaning.png width=400 />
+
 
 <b> Missing Character Variables </b>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Missing%20Character%20Variables.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Missing%20Character%20Variables.png height=350 />
 
 <b> Numeric Variables - Basic Statistics </b>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Numeric%20Variable%20Analysis.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/Numeric%20Variable%20Analysis.png height=400  />
 
 <b> Property Address Split </b>
 <p>Split Property Address into Address and City fields.  Populated missing Owner Address with Property Address since non-missing values were the same as Property Address.</p>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/PropertyAddressSplit.png height=400 />
 
 <b> SoldAsVacant Standardizaton </b>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SoldAsVacant%20Standardization.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SoldAsVacant%20Standardization.png width=400 />
 
 <b> LandUse Standardization </b>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png) 
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse%20Standardization.png width=400 />
 
 <b> LandUse_Grp </b>
 
 <p>Created categorization field for the LandUse field.</p>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/LandUse_LandUseGrp.png width=400 />
 
 <b>SalePrice_Grp </b>
 <p>Created categorization field for the SalePrice field.</p>
 
-![](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SalePrice_Grp.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/SalePrice_Grp.png height=400 />
 
 <b> Dataset after Cleaning </b>
 <p>Dropped 9 fields due to missing values.  Added 5 fields.</p>
@@ -70,9 +71,9 @@ The following tasks were performed:
 
 <p>  Distribution of property sales</p>
 
-![DistSales](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_DistSalesPrice.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_DistSalesPrice.png height=400 />
 
 <p> Properties Sold By Year & Landuse</p>
 
-![PropertiesSold](https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_NumSoldByYr.png)
+<img src=https://github.com/Sarah269/Data-Cleaning-Project/blob/main/TN_NumSoldByYr.png height=400 />
 
