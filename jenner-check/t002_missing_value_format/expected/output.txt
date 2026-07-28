@@ -1,0 +1,134 @@
+                                                   The FREQ Procedure
+
+ParcelID           Frequency
+-----------------------------
+007 00 0 125.00            1
+007 00 0 130.00            1
+007 00 0 138.00            1
+007 00 0 143.00            1
+007 14 0B 010.0            1
+012 03 0 023.00            1
+018 00 0 087.00            1
+018 00 0 096.00            1
+018 00 0 164.00            1
+018 03 0 026.00            1
+018 07 0 062.00            1
+018 16 0 208.00            1
+025 03 0 032.00            1
+025 07 0 031.00            2
+026 01 0 050.00            1
+026 01 0 052.00            1
+026 05 0 100.00            1
+026 06 0 005.00            1
+026 09 0 028.00            1
+
+LandUse                    Frequency
+-------------------------------------
+CHURCH                             1
+DUPLEX                             1
+RESIDENTIAL CONDO                  1
+SINGLE FAMILY                      8
+VACANT RES LAND                    3
+VACANT RESIDENTIAL LAND            4
+VACANT RURAL LAND                  1
+ZERO LOT LINE                      1
+
+PropertyAddress                           Frequency
+----------------------------------------------------
+                                                  1
+0  BRICK CHURCH PIKE, GOODLETTSVILLE              2
+110  HABERSHAM CT, GOODLETTSVILLE                 1
+119  CIMA DR, GOODLETTSVILLE                      1
+126  EAST AVE, GOODLETTSVILLE                     1
+130  EAST AVE, GOODLETTSVILLE                     1
+1808  FOX CHASE DR, GOODLETTSVILLE                1
+1832  FOX CHASE DR, GOODLETTSVILLE                1
+1853  FOX CHASE DR, GOODLETTSVILLE                1
+1864 FOX CHASE  DR, GOODLETTSVILLE                1
+1900  TINNIN RD, GOODLETTSVILLE                   1
+205  HOLLYWOOD ST, GOODLETTSVILLE                 1
+332  MONCRIEF AVE, GOODLETTSVILLE                 1
+408  BRICK CHURCH PIKE, GOODLETTSVILLE            1
+408  ISAAC DR, GOODLETTSVILLE                     1
+410  ROSEHILL CT, GOODLETTSVILLE                  1
+435 MONCRIEF  AVE, GOODLETTSVILLE                 1
+507  MATHES CT, GOODLETTSVILLE                    1
+621  GAYLEMORE DR, GOODLETTSVILLE                 1
+
+LegalReference      Frequency
+------------------------------
+20130215-0015687            1
+20130227-0019536            1
+20130412-0036474            1
+20130501-0043874            1
+20130709-0070947            2
+20131028-0111686            1
+20140424-0034560            1
+20140619-0053768            1
+20141015-0095213            1
+20141114-0105388            1
+20150415-0033310            1
+20150602-0051124            1
+20150717-0069947            1
+20151013-0104052            1
+20151106-0113192            1
+20160120-0005776            1
+20160129-0008913            1
+20160616-0061051            1
+20160927-0101718            1
+
+SoldAsVacant    Frequency
+--------------------------
+N                       6
+No                     14
+
+OwnerName                                        Frequency
+-----------------------------------------------------------
+                                                         1
+BAKER, JAY K. & SUSAN E.                                 1
+BONER, CHARLES & LESLIE                                  1
+BRUCE, WILLIAM JEFFREY & REBECCA LYNN                    1
+BUCHANAN, DONALD W. & SANDRA R.                          2
+COSTNER, FRED & CAROLYN                                  2
+FRAZIER, CYRENTHA LYNETTE                                1
+G AND M PROPERTIES, LLC                                  1
+HAMPTON, DANA N. & VERONICA C.                           1
+HARR, SCOTT W.                                           1
+HILL, RAYMOND & KILPATRICK, MARK W. & DAWN H.            1
+KEOWN, BRANDON & FERNE                                   1
+MARSHALL, JULIE M.                                       1
+PEGRAM, RAYMOND & MARY                                   1
+ROWND, CHRISTINA                                         1
+SPELLE, LANE T.                                          1
+TUDERS, KEVIN                                            1
+WILSON, JAMES E. & JOANNE                                1
+
+OwnerAddress                                  Frequency
+--------------------------------------------------------
+                                                      1
+0  BRICK CHURCH PIKE, GOODLETTSVILLE, TN              2
+110  HABERSHAM CT, GOODLETTSVILLE, TN                 1
+119  CIMA DR, GOODLETTSVILLE, TN                      1
+126  EAST AVE, GOODLETTSVILLE, TN                     1
+130  EAST AVE, GOODLETTSVILLE, TN                     1
+1808  FOX CHASE DR, GOODLETTSVILLE, TN                1
+1832  FOX CHASE DR, GOODLETTSVILLE, TN                1
+1853  FOX CHASE DR, GOODLETTSVILLE, TN                1
+1864  FOX CHASE DR, GOODLETTSVILLE, TN                1
+205  HOLLYWOOD ST, GOODLETTSVILLE, TN                 1
+332  MONCRIEF AVE, GOODLETTSVILLE, TN                 1
+408  BRICK CHURCH PIKE, GOODLETTSVILLE, TN            1
+408  ISAAC DR, GOODLETTSVILLE, TN                     1
+410  ROSEHILL CT, GOODLETTSVILLE, TN                  2
+435  MONCRIEF AVE, GOODLETTSVILLE, TN                 1
+507  MATHES CT, GOODLETTSVILLE, TN                    1
+621  GAYLEMORE DR, GOODLETTSVILLE, TN                 1
+
+TaxDistrict                  Frequency
+---------------------------------------
+                                     1
+CITY OF GOODLETTSVILLE              14
+GENERAL SERVICES DISTRICT            5
+UniqueID         ParcelID  PropertyAddress
+--------  ---------------  ---------------
+ 43076.0  025 07 0 031.00                 

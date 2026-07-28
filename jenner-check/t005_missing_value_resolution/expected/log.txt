@@ -1,0 +1,30 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA tn_wip
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote tn_wip (20 rows, 19 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA tn_wip2
+
+
+NOTE: Read 20 rows from tn_wip.
+NOTE: Wrote tn_wip2 (20 rows, 23 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA tn_wip3
+
+
+NOTE: Read 20 rows from tn_wip2.
+NOTE: Wrote tn_wip3 (20 rows, 20 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_taxdistrict.spec.json
+NOTE: ODS plot written: freq_owner_city.spec.json
+NOTE: PROC FREQ statement used.

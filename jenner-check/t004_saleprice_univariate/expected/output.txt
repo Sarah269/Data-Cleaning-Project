@@ -1,0 +1,22 @@
+                                                The UNIVARIATE Procedure
+                                                  Variable:  SalePrice
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                   161275.000000    Sum Observations      3225500.000000
+Std Deviation          119804.476127    Variance              14353112500.000000
+Skewness                    0.579367    Kurtosis                   -0.129304
+Uncorrected SS        792901650000.000000    Corrected SS          272709137500.000000
+Coeff Variation            74.285832    Std Error Mean          26789.095263
+
+                Basic Statistical Measures                
+
+Location                 Variability                      
+--------  -------------  -------------  ------------------
+Mean      161275.000000  Std Deviation       119804.476127
+Median    152000.000000  Variance       14353112500.000000
+Mode       25000.000000  Range               412500.000000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+

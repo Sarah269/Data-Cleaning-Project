@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_char_freq_profile",
+  "source_file": "TN_541_DataCleaningII.sas",
+  "source_blob_sha": "4b96308f8078c699bcadbc4aacd2a76f90d37ce0",
+  "source_commit": "fca307e9f8b612acdc5fa6868b1df8b02e949568",
+  "notes": "Initial character-variable profiling stage of the pipeline: PROC CONTENTS, PROC FREQ _char_ with maxlevels/MISSING, PROC SORT dupout=dups noduprecs, and two PROC SQL group-by/having duplicate checks (UniqueID, and ParcelID+SaleDate). External libname mylib.TN_541 replaced by an inline 20-row datalines sample drawn from the repo's Housing_1.xlsx. Duplicate checks return 0 rows, matching the author's own comments."
+}

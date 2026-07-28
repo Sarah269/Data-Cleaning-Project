@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-28T02:13:01Z",
+  "_captured_run_id": "r_a1f52da6f3e9430da8d144a82f1b5e60",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 20 rows from DATALINES.",
+    "NOTE: Wrote tn_wip2 (20 rows, 24 columns).",
+    "NOTE: PROC PRINT completed: 20 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
