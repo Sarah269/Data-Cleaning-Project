@@ -1,0 +1,36 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA tn_wip
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote tn_wip (20 rows, 19 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=tn_wip
+
+NOTE: PROC CONTENTS completed: 20 observations, 19 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_parcelid.spec.json
+NOTE: ODS plot written: freq_landuse.spec.json
+NOTE: ODS plot written: freq_propertyaddress.spec.json
+NOTE: ODS plot written: freq_legalreference.spec.json
+NOTE: ODS plot written: freq_soldasvacant.spec.json
+NOTE: ODS plot written: freq_ownername.spec.json
+NOTE: ODS plot written: freq_owneraddress.spec.json
+NOTE: ODS plot written: freq_taxdistrict.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC SORT data=tn_wip
+
+NOTE: Read 20 rows from tn_wip.
+NOTE: Wrote tn_wip (20 rows, 19 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=dups
+
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.

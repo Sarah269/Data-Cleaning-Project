@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_address_split_standardize",
+  "source_file": "TN_541_DataCleaningII.sas",
+  "source_blob_sha": "4b96308f8078c699bcadbc4aacd2a76f90d37ce0",
+  "source_commit": "fca307e9f8b612acdc5fa6868b1df8b02e949568",
+  "notes": "Core cleaning DATA step: scan() splits OwnerAddress/PropertyAddress into address+city; a SELECT/WHEN/OTHERWISE block standardizes SoldAsVacant (N->No, Y->Yes) and derives LandUse_Grp categories, including the branch that renames 'VACANT RES LAND' to 'VACANT RESIDENTIAL LAND'. PROC PRINT displays the before/after columns. External libname mylib.TN_541 replaced by an inline 20-row datalines sample from the repo's Housing_1.xlsx."
+}

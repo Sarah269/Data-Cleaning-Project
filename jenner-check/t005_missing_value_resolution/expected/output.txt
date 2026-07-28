@@ -1,0 +1,12 @@
+                                                   The FREQ Procedure
+
+                                                       Cumulative    Cumulative
+TaxDistrict                  Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------------
+CITY OF GOODLETTSVILLE              14     70.00           14        70.00
+GENERAL SERVICES DISTRICT            6     30.00           20       100.00
+
+                                                  Cumulative    Cumulative
+Owner_City              Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------
+ GOODLETTSVILLE                20    100.00           20       100.00

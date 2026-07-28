@@ -1,0 +1,176 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: tn_wip
+Observations:  20
+Variables:     19
+
+Variables (in creation order):
+
+  #  Variable         Type    Len  Format     Label
+---  ---------------  ----  -----  ---------  -----
+  1  UniqueID          Num      8             
+  2  ParcelID         Char     15             
+  3  LandUse          Char     25             
+  4  PropertyAddress  Char     40             
+  5  SaleDate          Num      8  MMDDYY10.  
+  6  SalePrice         Num      8             
+  7  LegalReference   Char     20             
+  8  SoldAsVacant     Char      8             
+  9  OwnerName        Char     50             
+ 10  OwnerAddress     Char     45             
+ 11  Acreage           Num      8             
+ 12  TaxDistrict      Char     30             
+ 13  LandValue         Num      8             
+ 14  BuildingValue     Num      8             
+ 15  TotalValue        Num      8             
+ 16  YearBuilt         Num      8             
+ 17  Bedrooms          Num      8             
+ 18  FullBath          Num      8             
+ 19  HalfBath          Num      8             
+
+-------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                             Cumulative    Cumulative
+ParcelID           Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------
+025 07 0 031.00            2     10.00            2        10.00
+007 00 0 125.00            1      5.00            3        15.00
+007 00 0 130.00            1      5.00            4        20.00
+007 00 0 138.00            1      5.00            5        25.00
+007 00 0 143.00            1      5.00            6        30.00
+007 14 0B 010.0            1      5.00            7        35.00
+012 03 0 023.00            1      5.00            8        40.00
+018 00 0 087.00            1      5.00            9        45.00
+018 00 0 096.00            1      5.00           10        50.00
+018 00 0 164.00            1      5.00           11        55.00
+018 03 0 026.00            1      5.00           12        60.00
+018 07 0 062.00            1      5.00           13        65.00
+018 16 0 208.00            1      5.00           14        70.00
+025 03 0 032.00            1      5.00           15        75.00
+026 01 0 050.00            1      5.00           16        80.00
+026 01 0 052.00            1      5.00           17        85.00
+026 05 0 100.00            1      5.00           18        90.00
+026 06 0 005.00            1      5.00           19        95.00
+026 09 0 028.00            1      5.00           20       100.00
+
+                                                     Cumulative    Cumulative
+LandUse                    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------------------
+SINGLE FAMILY                      8     40.00            8        40.00
+VACANT RESIDENTIAL LAND            4     20.00           12        60.00
+VACANT RES LAND                    3     15.00           15        75.00
+CHURCH                             1      5.00           16        80.00
+DUPLEX                             1      5.00           17        85.00
+RESIDENTIAL CONDO                  1      5.00           18        90.00
+VACANT RURAL LAND                  1      5.00           19        95.00
+ZERO LOT LINE                      1      5.00           20       100.00
+
+                                                                    Cumulative    Cumulative
+PropertyAddress                           Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------------------------
+0  BRICK CHURCH PIKE, GOODLETTSVILLE              2     10.00            2        10.00
+                                                  1      5.00            3        15.00
+110  HABERSHAM CT, GOODLETTSVILLE                 1      5.00            4        20.00
+119  CIMA DR, GOODLETTSVILLE                      1      5.00            5        25.00
+126  EAST AVE, GOODLETTSVILLE                     1      5.00            6        30.00
+130  EAST AVE, GOODLETTSVILLE                     1      5.00            7        35.00
+1808  FOX CHASE DR, GOODLETTSVILLE                1      5.00            8        40.00
+1832  FOX CHASE DR, GOODLETTSVILLE                1      5.00            9        45.00
+1853  FOX CHASE DR, GOODLETTSVILLE                1      5.00           10        50.00
+1864 FOX CHASE  DR, GOODLETTSVILLE                1      5.00           11        55.00
+1900  TINNIN RD, GOODLETTSVILLE                   1      5.00           12        60.00
+205  HOLLYWOOD ST, GOODLETTSVILLE                 1      5.00           13        65.00
+332  MONCRIEF AVE, GOODLETTSVILLE                 1      5.00           14        70.00
+408  BRICK CHURCH PIKE, GOODLETTSVILLE            1      5.00           15        75.00
+408  ISAAC DR, GOODLETTSVILLE                     1      5.00           16        80.00
+410  ROSEHILL CT, GOODLETTSVILLE                  1      5.00           17        85.00
+435 MONCRIEF  AVE, GOODLETTSVILLE                 1      5.00           18        90.00
+507  MATHES CT, GOODLETTSVILLE                    1      5.00           19        95.00
+621  GAYLEMORE DR, GOODLETTSVILLE                 1      5.00           20       100.00
+
+                                              Cumulative    Cumulative
+LegalReference      Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+20130709-0070947            2     10.00            2        10.00
+20130215-0015687            1      5.00            3        15.00
+20130227-0019536            1      5.00            4        20.00
+20130412-0036474            1      5.00            5        25.00
+20130501-0043874            1      5.00            6        30.00
+20131028-0111686            1      5.00            7        35.00
+20140424-0034560            1      5.00            8        40.00
+20140619-0053768            1      5.00            9        45.00
+20141015-0095213            1      5.00           10        50.00
+20141114-0105388            1      5.00           11        55.00
+20150415-0033310            1      5.00           12        60.00
+20150602-0051124            1      5.00           13        65.00
+20150717-0069947            1      5.00           14        70.00
+20151013-0104052            1      5.00           15        75.00
+20151106-0113192            1      5.00           16        80.00
+20160120-0005776            1      5.00           17        85.00
+20160129-0008913            1      5.00           18        90.00
+20160616-0061051            1      5.00           19        95.00
+20160927-0101718            1      5.00           20       100.00
+
+                                          Cumulative    Cumulative
+SoldAsVacant    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+No                     14     70.00           14        70.00
+N                       6     30.00           20       100.00
+
+                                                                           Cumulative    Cumulative
+OwnerName                                        Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------
+BUCHANAN, DONALD W. & SANDRA R.                          2     10.00            2        10.00
+COSTNER, FRED & CAROLYN                                  2     10.00            4        20.00
+                                                         1      5.00            5        25.00
+BAKER, JAY K. & SUSAN E.                                 1      5.00            6        30.00
+BONER, CHARLES & LESLIE                                  1      5.00            7        35.00
+BRUCE, WILLIAM JEFFREY & REBECCA LYNN                    1      5.00            8        40.00
+FRAZIER, CYRENTHA LYNETTE                                1      5.00            9        45.00
+G AND M PROPERTIES, LLC                                  1      5.00           10        50.00
+HAMPTON, DANA N. & VERONICA C.                           1      5.00           11        55.00
+HARR, SCOTT W.                                           1      5.00           12        60.00
+HILL, RAYMOND & KILPATRICK, MARK W. & DAWN H.            1      5.00           13        65.00
+KEOWN, BRANDON & FERNE                                   1      5.00           14        70.00
+MARSHALL, JULIE M.                                       1      5.00           15        75.00
+PEGRAM, RAYMOND & MARY                                   1      5.00           16        80.00
+ROWND, CHRISTINA                                         1      5.00           17        85.00
+SPELLE, LANE T.                                          1      5.00           18        90.00
+TUDERS, KEVIN                                            1      5.00           19        95.00
+WILSON, JAMES E. & JOANNE                                1      5.00           20       100.00
+
+                                                                        Cumulative    Cumulative
+OwnerAddress                                  Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------------------------------------
+0  BRICK CHURCH PIKE, GOODLETTSVILLE, TN              2     10.00            2        10.00
+410  ROSEHILL CT, GOODLETTSVILLE, TN                  2     10.00            4        20.00
+                                                      1      5.00            5        25.00
+110  HABERSHAM CT, GOODLETTSVILLE, TN                 1      5.00            6        30.00
+119  CIMA DR, GOODLETTSVILLE, TN                      1      5.00            7        35.00
+126  EAST AVE, GOODLETTSVILLE, TN                     1      5.00            8        40.00
+130  EAST AVE, GOODLETTSVILLE, TN                     1      5.00            9        45.00
+1808  FOX CHASE DR, GOODLETTSVILLE, TN                1      5.00           10        50.00
+1832  FOX CHASE DR, GOODLETTSVILLE, TN                1      5.00           11        55.00
+1853  FOX CHASE DR, GOODLETTSVILLE, TN                1      5.00           12        60.00
+1864  FOX CHASE DR, GOODLETTSVILLE, TN                1      5.00           13        65.00
+205  HOLLYWOOD ST, GOODLETTSVILLE, TN                 1      5.00           14        70.00
+332  MONCRIEF AVE, GOODLETTSVILLE, TN                 1      5.00           15        75.00
+408  BRICK CHURCH PIKE, GOODLETTSVILLE, TN            1      5.00           16        80.00
+408  ISAAC DR, GOODLETTSVILLE, TN                     1      5.00           17        85.00
+435  MONCRIEF AVE, GOODLETTSVILLE, TN                 1      5.00           18        90.00
+507  MATHES CT, GOODLETTSVILLE, TN                    1      5.00           19        95.00
+621  GAYLEMORE DR, GOODLETTSVILLE, TN                 1      5.00           20       100.00
+
+                                                       Cumulative    Cumulative
+TaxDistrict                  Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------------
+CITY OF GOODLETTSVILLE              14     70.00           14        70.00
+GENERAL SERVICES DISTRICT            5     25.00           19        95.00
+                                     1      5.00           20       100.00
+
+No observations in dataset.
+

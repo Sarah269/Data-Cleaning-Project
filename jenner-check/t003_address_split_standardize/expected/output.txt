@@ -1,0 +1,24 @@
+
+  Obs                         PropertyAddress                Property_Address         Property_City  SoldAsVacant                  LandUse  LandUse_Grp
+-----  --------------------------------------  ------------------------------  --------------------  ------------  -----------------------  -----------
+    1  1808  FOX CHASE DR, GOODLETTSVILLE      1808  FOX CHASE DR               GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+    2  1832  FOX CHASE DR, GOODLETTSVILLE      1832  FOX CHASE DR               GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+    3  1853  FOX CHASE DR, GOODLETTSVILLE      1853  FOX CHASE DR               GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+    4  332  MONCRIEF AVE, GOODLETTSVILLE       332  MONCRIEF AVE                GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+    5  126  EAST AVE, GOODLETTSVILLE           126  EAST AVE                    GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+    6                                                                                                No            SINGLE FAMILY            HOME
+    7  410  ROSEHILL CT, GOODLETTSVILLE        410  ROSEHILL CT                 GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+    8  1900  TINNIN RD, GOODLETTSVILLE         1900  TINNIN RD                  GOODLETTSVILLE       No            RESIDENTIAL CONDO        HOME
+    9  507  MATHES CT, GOODLETTSVILLE          507  MATHES CT                   GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+   10  0  BRICK CHURCH PIKE, GOODLETTSVILLE    0  BRICK CHURCH PIKE             GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+   11  408  ISAAC DR, GOODLETTSVILLE           408  ISAAC DR                    GOODLETTSVILLE       No            DUPLEX                   HOME
+   12  408  BRICK CHURCH PIKE, GOODLETTSVILLE  408  BRICK CHURCH PIKE           GOODLETTSVILLE       No            CHURCH                   CHURCH
+   13  110  HABERSHAM CT, GOODLETTSVILLE       110  HABERSHAM CT                GOODLETTSVILLE       No            ZERO LOT LINE            HOME
+   14  0  BRICK CHURCH PIKE, GOODLETTSVILLE    0  BRICK CHURCH PIKE             GOODLETTSVILLE       No            VACANT RURAL LAND        LAND
+   15  1864 FOX CHASE  DR, GOODLETTSVILLE      1864 FOX CHASE  DR               GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+   16  621  GAYLEMORE DR, GOODLETTSVILLE       621  GAYLEMORE DR                GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+   17  119  CIMA DR, GOODLETTSVILLE            119  CIMA DR                     GOODLETTSVILLE       No            SINGLE FAMILY            HOME
+   18  435 MONCRIEF  AVE, GOODLETTSVILLE       435 MONCRIEF  AVE                GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+   19  130  EAST AVE, GOODLETTSVILLE           130  EAST AVE                    GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+   20  205  HOLLYWOOD ST, GOODLETTSVILLE       205  HOLLYWOOD ST                GOODLETTSVILLE       No            VACANT RESIDENTIAL LAND  LAND
+
